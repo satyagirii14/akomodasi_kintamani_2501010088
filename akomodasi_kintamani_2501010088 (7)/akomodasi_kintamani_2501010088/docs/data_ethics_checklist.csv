@@ -1,0 +1,7 @@
+prinsip_etika,status_kepatuhan,bukti_pelaksanaan
+API Limit & Respect,Penuh,User-Agent khusus dan retry dengan exponential backoff (maks 4x)
+Minimisasi Data,Penuh,Telepon dan email pemilik tidak diambil dalam skrip
+Lisensi & Atribusi,Penuh,Atribusi © OpenStreetMap contributors (ODbL) dicantumkan
+Sumber Terlarang,Penuh,Tidak ada scraping Traveloka/Booking/Agoda/Airbnb/Google Maps
+Kebenaran Data,Penuh,Raw JSON tidak diubah dan disimpan di data/raw/ dengan hash SHA-256
+Transparansi Pembersihan,Penuh,Objek di luar bounding box disimpan terpisah di data/interim/akomodasi_di_luar_bbox.csv

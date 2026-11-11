@@ -1,0 +1,14 @@
+kolom,tipe,deskripsi,contoh,boleh_kosong
+osm_type,teks,Jenis objek OSM (node/way/relation),way,Tidak
+osm_id,bilangan bulat,ID unik objek OpenStreetMap,123456789,Tidak
+nama,teks,Nama akomodasi dari tag name,Batur View Guest House,Ya
+jenis,teks,Kategori akomodasi dari tag tourism,guest_house,Tidak
+lat,desimal,Lintang WGS84 (titik/center),-8.27123,Tidak
+lon,desimal,Bujur WGS84 (titik/center),115.37123,Tidak
+kecamatan,teks,Kecamatan wilayah query,Kintamani,Tidak
+desa,teks,Nama desa dari tag addr:village,Batur Tengah,Ya
+jalan,teks,Nama jalan dari tag addr:street,Jl. Raya Penelokan,Ya
+bintang,teks,Klasifikasi bintang dari tag stars,3,Ya
+jumlah_kamar,teks,Jumlah kamar dari tag rooms,10,Ya
+website,teks,URL situs resmi akomodasi,https://baturview.com,Ya
+url_osm,teks,Tautan ke objek di openstreetmap.org,https://www.openstreetmap.org/way/123456789,Tidak

@@ -1,0 +1,12 @@
+{
+  "endpoint_url": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:90];\narea[\"name\"=\"Kintamani\"][\"boundary\"=\"administrative\"][\"admin_level\"=\"6\"]->.kec;\nnwr[\"tourism\"~\"^(hotel|guest_house|hostel|motel|apartment|chalet|resort)$\"](area.kec);\nout center tags;",
+  "timestamp_utc": "2026-11-11T09:01:41.345834+00:00",
+  "total_elements": 32,
+  "total_baris_interim": 31,
+  "raw_filename": "osm_akomodasi_kintamani_20261111_090141.json",
+  "raw_sha256": "c6230dd7942d90e9577b40efb2be723e18962efc6dc08b7abc82e85b58872a58",
+  "license": "Open Data Commons Open Database License (ODbL)",
+  "collector_name": "Ni Kadek Satya Giri Sardhula",
+  "collector_nim": "2501010088"
+}
